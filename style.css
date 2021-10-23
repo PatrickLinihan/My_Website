@@ -1,0 +1,117 @@
+body {
+  background-image: url('clouds.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  padding-left: 20px;  
+  padding-top: 20px;
+  font-family: "Arial", sans-serif;
+  color: white;
+}
+
+iframe {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.intro {
+  background-color: rgba(194, 160, 171, 0.5);
+  background-attachment: fixed;
+  box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 50px 15px; 
+  margin: auto;
+  width: 85%;
+  padding: 10px;
+  display: grid;
+  grid-gap: 3em;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.pic {
+  padding: 35px;
+}
+.myFace {
+  width: 100%;
+  border-radius: 50px 50px; 
+}
+
+.description {
+  color: rgb(71, 71, 71);
+  padding: 35px;
+}
+
+.contactDiv {
+  color: rgb(71, 71, 71);
+  padding: 35px;
+}
+
+.widgit {
+  width: 50px;
+  padding: 10px;
+}
+
+.codeProjects {
+  padding-left: 30px;
+  color: white;
+}
+
+.whatImAbout {
+  padding-left: 30px;
+  color: white;
+}
+
+.aboutDiv {
+  width: 85%;
+  margin: auto;
+  padding: 10px;
+  top: 0;
+  left: 0;
+}
+
+.projectsDiv {
+  width: 85%;
+  margin: auto;
+  padding: 10px;
+  top: 0;
+  left: 0;
+}
+
+.sectionTitle {
+  width: 85%;
+  margin: auto;
+  padding: 10px;
+  top: 0;
+  left: 0;
+}
+
+.musicDiv {
+  width: 85%;
+  margin: auto;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.soundcloudWidget {
+  width: 100%;
+}
+
+.navbar-brand {
+  font-size: 40px;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: rgb(238, 247, 36);
+}
+
+
