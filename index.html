@@ -4,7 +4,7 @@
     <title>Patrick Linihan</title>
     <meta charset="UTF=8">
     <meta name = "viewport" content = "width=device-width, initial-scale=1">
-    <meta name = "description" content = "Bla bla bla bla fuck">
+    <meta name = "description" content = "Patrick Linihan's portfolio">
     <meta name = "author" content = "Patrick Linihan">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -12,9 +12,9 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <link href = "style.css" rel = "stylesheet">
   </head>
-
+  
   <body>
-    <nav class = "navbar navbar-expand-lg navbar-dark bg-transparent">
+    <nav class = "navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
       <div class = "container-fluid">
         <a class = "navbar-brand" href = "#home"> <strong>{Patrick Linihan}</strong></a>
         <button class = "navbar-toggler" type = "button" data-toggle = "collapse"
@@ -44,14 +44,15 @@
         </div>
       </div>
     </nav>
-
     
     <div class="intro" id="home"> 
       <div class="pic">
         <img class="myFace" src="profilePic.jpeg">
       </div>
       <div class="description">
-        <h2>Software Engineer</h2>
+        <div class="Headers">
+          <h2>Software Engineer</h2>
+        </div>
         <ul>
           <li>C++</li>
           <li>Python</li>
@@ -62,7 +63,9 @@
         </ul>
       </div>
       <div class="contactDiv" id="contact">
-        <h2>Contacts</h2>
+        <div class="Headers">
+          <h2>Contacts</h2>
+        </div>
         <p>pmlinihan@gmail.com</p>
         <p>(702) 277-6590</p>
         <a href="https://www.instagram.com/linnyhan_/"><img class="widgit" src="https://www.transparentpng.com/thumb/logo-instagram/zI6ZGS-black-logo-instagram-png-transparent.png"></a>
@@ -74,8 +77,8 @@
     <div class="aboutDiv" id="about">
       <h1>About Me</h1>
         <div class="whatImAbout">
-          <p> Hello! My name is Patrick Linihan and I am currently a senior Computer Science Major at the University of Nevada - Las Vegas.  My interests in computer science are web development and software engineering.  I am fluent in C++, python, HTML, CSS, and have an intermediate understanding of Python and Java. 
-            I hope to land an internship this spring or summer so I can grow technically and professionally in my career as a computer scientist.  Thank you for looking at my Page!
+          <p> Hello! My name is Patrick Linihan and I am currently a senior Computer Science Major at the University of Nevada - Las Vegas.  My interests in computer science reside in web development and software engineering.  I am fluent in C++, python, HTML, CSS, and have an intermediate understanding of Python and Java. 
+            I am looking for internships and hope to have one this spring or summer so I can grow technically and professionally in my career as a computer scientist.  Thank you for looking at my Page!
 
           </p>
         </div>
@@ -128,5 +131,10 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+      $(window).scroll(function() {
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+      })
+    </script>
   </body>
 </html>
