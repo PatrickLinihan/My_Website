@@ -1,5 +1,5 @@
 body {
-  background-image: url('clouds.png');
+  background-image: url('space-background-website.jpeg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -18,7 +18,7 @@ iframe {
 }
 
 .intro {
-  background-color: rgba(194, 160, 171, 0.5);
+  background-color: rgba(84, 78, 80, 0.75);
   background-attachment: fixed;
   box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5);
   border-radius: 50px 15px; 
@@ -39,12 +39,12 @@ iframe {
 }
 
 .description {
-  color: rgb(71, 71, 71);
+  color: white;
   padding: 35px;
 }
 
 .contactDiv {
-  color: rgb(71, 71, 71);
+  color: white;
   padding: 35px;
 }
 
