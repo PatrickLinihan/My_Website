@@ -1,5 +1,6 @@
 body {
-  background-image: url('space-background.jpeg');
+  /* background-image: url('space-background.jpeg'); */
+  background-color: rgb(7, 75, 82);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -26,7 +27,7 @@ iframe {
 }
 
 .intro {
-  background-color: rgba(84, 78, 80, 0.75);
+  background-color: rgba(5, 49, 54, 0.75);
   background-attachment: fixed;
   box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5);
   border-radius: 50px 15px; 
@@ -120,7 +121,7 @@ iframe {
 }
 
 .bg-dark.scrolled {
-  background: rgb(84, 78, 80) !important;
+  background: rgb(5, 49, 54) !important;
 }
 
 a {
